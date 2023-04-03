@@ -72,8 +72,9 @@ a {
   color: var(--blackText);
   font-family: var(--secondHedingFont);
   font-weight: bold;
-  padding: 43px 20px;
-  transition: 0.6s;
+  margin: 20px 0px;
+  padding: 20px 20px;
+  transition: 0.5s;
 }
 
 #menu button {
@@ -95,6 +96,7 @@ a {
 #banner button:hover {
   background-color: #fff9e6;
   color: #ffc712;
+  border-radius: 5px;
 }
 
 /* menu css end*/
