@@ -225,7 +225,12 @@ ul {
 
 #about-us-image {
   width: 50%;
-  margin-left: 50px;
+  position: relative;
+}
+
+#about-us-image img {
+  position: absolute;
+  right: 0;
 }
 
 #about-us-content h5 {
@@ -301,7 +306,7 @@ ul {
   padding: 20px 0px;
 }
 
-.our-skills-content .row{
+.our-skills-content .row {
   margin-bottom: 20px;
 }
 
@@ -345,4 +350,19 @@ ul {
 
 /* Our Skills End */
 
+/* Our Services Start */
+#our-services{
+  margin: 180px 0px;
+  text-align: center;
+}
 
+.what-we-do h4{
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.what-we-do h2{
+  font-size: 32px;
+  font-weight: 400;
+}
+/* Our Services End */
