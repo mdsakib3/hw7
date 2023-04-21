@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 
 <head>
     <meta charset="UTF-8">
@@ -27,10 +27,10 @@
             <div class="container">
                 <div class="row">
                     <div>
-                        <p>Welcome to our Company</p>
+                        <h4>Welcome to our Company</h4>
                     </div>
                     <div>
-                        <p>Opening Hour: 08:00 a.m to 10:00 p.m</p>
+                        <h4>Opening Hour: 08:00 a.m to 10:00 p.m</h4>
                     </div>
                 </div>
             </div>
@@ -46,16 +46,19 @@
                     </div>
                     <div>
                         <ul>
-                            <li class="navbar-list"><a href="#">Home</a></li>
-                            <li class="navbar-list"><a href="#">About us</a></li>
-                            <li class="navbar-list"><a href="#">Our Servies</a></li>
-                            <li class="navbar-list"><a href="#">Portfolio</a></li>
-                            <li class="navbar-list"><a href="#">Blogs <i class="fa-solid fa-chevron-down"></i></a></li>
-                            <li class="navbar-list"><a href="#">Contact</a></li>
-                            <li class="navbar-button"><a href="#"><button type="submit"><i
-                                            class="fa-solid fa-magnifying-glass"></i></button></i></a></li>
-                            <li class="navbar-button"><a href="#"><button type="reset"><i
-                                            class="fa-solid fa-x"></i></button></a></li>
+                            <li class="navbar-list"><a href="index.html">Home</a></li>
+                            <li class="navbar-list"><a href="#about-us">About us</a></li>
+                            <li class="navbar-list"><a href="#our-services">Our Servies</a></li>
+                            <li class="navbar-list"><a href="#our-portfolio">Portfolio</a></li>
+                            <li class="navbar-list"><a href="#our-latest-blogs">Blogs <i
+                                        class="fa-solid fa-chevron-down"></i></a></li>
+                            <li class="navbar-list"><a href="#footer">Contact</a></li>
+                            <li class="navbar-button">
+                                <button title="Search"><i class="fa-solid fa-magnifying-glass"></i></button>
+                            </li>
+                            <li class="navbar-button">
+                                <button title="Reset"><i class="fa-solid fa-x"></i></button>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -75,7 +78,7 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiumod tempor incididunt ut
                         labore et dolore magna
                         aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-                    <a href="*">Explore More</a>
+                    <a href="#">Explore More</a>
                     <button><i class="fa-solid fa-play"></i></button>
                 </div>
                 <div id="banner-image">
@@ -297,36 +300,203 @@
     <!-- Our Portfolio End -->
 
     <!-- Our Testimonial Start -->
-    <section class="our-testimonial container">
-        <div class="our-testimonial-info">
-            <h4>What people say?</h4>
-            <h2>Our Testimonial</h2>
-        </div>
-        <div class="testimonial-info row">
-            <div class="testimonial row">
-                <div><img src="./img/women.jpg" alt="woman"></div>
-                <div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipng elit, sed do eiusmod tempor incidt ut labore et
-                        dolore magna aliqua. Ut
-                        enim ad minim veniais nostrud exercitation ullamco.</p>
-                    <h3>Rane Fransisco</h3>
-                    <h4>CEO - Nation IT</h4>
+    <section class="our-testimonial">
+        <div class="container">
+            <div class="our-testimonial-info">
+                <h4>What people say?</h4>
+                <h2>Our Testimonial</h2>
+            </div>
+            <div class="testimonial-info row">
+                <div class="testimonial row">
+                    <div class="testimonial-image"><img src="./img/women.jpg" alt="woman"></div>
+                    <div class="testimonial-details">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipng elit, sed do eiusmod tempor incidt ut labore
+                            et
+                            dolore magna aliqua. Ut
+                            enim ad minim veniais nostrud exercitation ullamco.</p>
+                        <h3>Rane Fransisco</h3>
+                        <h4>CEO - Nation IT</h4>
+                    </div>
+                    <button class="button-one"><i class="fa-solid fa-angle-left fa-xl"></i></button>
                 </div>
-                <div>
-                </div class="testimonial row">
-                <div><img src="./img/man.jpg" alt="man"></div>
-                <div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipng elit, sed do eiusmod tempor incidt ut labore et
-                        dolore magna aliqua. Ut
-                        enim ad minim veniais nostrud exercitation ullamco.</p>
-                    <h3>San Fransisco</h3>
-                    <h4>COO - Nation IT</h4>
+
+                <div class="testimonial row">
+                    <div class="testimonial-image"><img src="./img/man.jpg" alt="man"></div>
+                    <div class="testimonial-details">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipng elit, sed do eiusmod tempor incidt ut labore
+                            et
+                            dolore magna aliqua. Ut
+                            enim ad minim veniais nostrud exercitation ullamco.</p>
+                        <h3>San Fransisco</h3>
+                        <h4>COO - Nation IT</h4>
+                    </div>
+                    <button class="button-two"><i class="fa-solid fa-angle-right fa-xl"></i></button>
                 </div>
             </div>
         </div>
     </section>
     <!-- Our Testimonial End -->
 
+    <!-- Our Latest Blogs Start -->
+    <section id="our-latest-blogs">
+        <div class="container">
+            <div class="blogs-heading">
+                <h4>What happened recent?</h4>
+                <h2>Our Latest Blogs</h2>
+            </div>
+            <div class="row">
+
+                <div class="blogs">
+                    <div><img src="./img/blog1.jpg" alt="blog1"></div>
+                    <div>
+                        <h4>26 October 2018</h4>
+                        <h3>38 things you should save in your business</h3>
+                        <a href="">Read More <i class="fa-sharp fa-solid fa-right-long fa-xs"></i></a>
+                    </div>
+                </div>
+
+                <div class="blogs button">
+                    <button class="button1"><i class="fa-solid fa-angle-left fa-xl"></i></button>
+                    <div>
+                        <img src="./img/blog2.jpg" alt="blog2 ">
+                    </div>
+                    <div>
+                        <h4>26 October 2018</h4>
+                        <h3>108 tips & tricks to make the business successful</h3>
+                        <a href="">Read More <i class="fa-sharp fa-solid fa-right-long fa-xs"></i></a>
+                    </div>
+                    <button class="button2"><i class="fa-solid fa-angle-right fa-xl"></i></button>
+                </div>
+
+                <div class="blogs">
+                    <div><img src="./img/blog3.jpg" alt="blog3"></div>
+                    <div>
+                        <h4>26 October 2018</h4>
+                        <h3>Make your footprint on the floor of world business</h3>
+                        <a href="">Read More <i class="fa-sharp fa-solid fa-right-long fa-xs"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <a class="browse-all" href="#">Browse All</a>
+
+        </div>
+    </section>
+    <!-- Our Latest Blogs End -->
+    <!-- Footer Start -->
+    <footer id="footer">
+        <div class="container">
+            <button>
+                <i class="fa-sharp fa-solid fa-angle-up fa-2xl"></i>
+            </button>
+            <div class="main row">
+
+                <div class="part one">
+                    <div>
+                        <img src="./img/logo.png" alt="logo">
+                    </div>
+                    <div>
+                        <p>Lorem Ipsum is simply dummy text ofing and typesetting industry. Lorem Ipsuasn the industry's
+                            standard dummy text ever
+                            since the 1500s. Lorem ipsum dolor sit amet, consectetur.</p>
+                    </div>
+                    <div class="social-link">
+                        <a href="https://www.facebook.com/" target="_blank"><i
+                                class="fa-brands fa-facebook-f fa-lg"></i></a>
+                        <a href="https://www.twitter.com/" target="_blank"><i
+                                class="fa-brands fa-twitter fa-lg"></i></a>
+                        <a href="index.html"><i class="fa-brands fa-dribbble fa-lg"></i></a>
+                        <a href="https://www.pinterest.com/" target="_blank"><i
+                                class="fa-brands fa-pinterest-p fa-lg"></i></a>
+                        <a href="https://www.linkedin.com/" target="_blank"><i
+                                class="fa-brands fa-linkedin-in fa-lg"></i></a>
+                    </div>
+                </div>
+
+
+                <div class="part two">
+                    <h3>Contact Us</h3>
+                    <div class="row">
+                        <div class="contact-icon"><i class="fa-solid fa-location-dot fa-lg"></i></div>
+                        <div>
+                            <a href="#">1234, Park Street Avenue, NewYork
+                                America.</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="contact-icon"><i class="fa-regular fa-envelope fa-lg"></i></div>
+                        <div>
+                            <a href="mailto:information@adminrosui.com">information@adminrosui.com</a>
+                            <a href="mailto:helptotal@adminrosui.com">helptotal@adminrosui.com</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="contact-icon"><i class="fa-solid fa-phone fa-lg"></i></div>
+                        <div>
+                            <a href="tel:+88012345678">+880 1234 5678</a>
+                            <a href="tel:+88098765432">+880 9876 5432</a>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="part three">
+                    <div>
+                        <h3>Important Links</h3>
+                        <a href="index.html">Home</a>
+                        <a href="#about-us">About us</a>
+                        <a href="#our-services">Our Servies</a>
+                        <a href="#our-portfolio">Our Portfolio</a>
+                        <a href="#footer">Contact us</a>
+                    </div>
+                </div>
+
+
+                <div class="part four">
+                    <h3>Filckr Stream</h3>
+                    <div class="row">
+                        <div>
+                            <img src="./img/women.jpg" alt="footer-image">
+                        </div>
+                        <div>
+                            <img src="./img/foter2.jpg" alt="footer-image">
+                        </div>
+                        <div>
+                            <img src="./img/blog1.jpg" alt="footer-image">
+                        </div>
+                        <div>
+                            <img src="./img/blog2.jpg" alt="footer-image">
+                        </div>
+                        <div>
+                            <img src="./img/foter1.jpg" alt="footer-image">
+                        </div>
+                        <div>
+                            <img src="./img/foter3.jpg" alt="footer-image">
+                        </div>
+                        <div>
+                            <img src="./img/blog3.jpg" alt="footer-image">
+                        </div>
+                        <div>
+                            <img src="./img/foter4.jpg" alt="footer-image">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Copyright Start -->
+    <section id="copyright">
+        <div class="container">
+            <h4>Copyright 2018 <span>BIZZENCY</span> | All Rights Reserved | Designed By <span>DESIGNER</span></h4>
+        </div>
+    </section>
+    <!-- Copyright End -->
 </body>
 
 </html>
