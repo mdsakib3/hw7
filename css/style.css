@@ -521,8 +521,8 @@ ul {
   transform: translate(-50%);
   border-radius: 50%;
   border: 0;
-  box-shadow: 100px 0px 100px 10px rgba(20, 0, 0, 1);
-  transition: 0.5s;
+  box-shadow: 100px 0px 100px 10px rgba(0, 0, 0, 1);
+  transition: 0.3s;
 }
 
 #our-portfolio .row .illustration button:hover {
@@ -537,7 +537,7 @@ ul {
   font-size: 20px;
   font-weight: 500;
   border-radius: 5px;
-  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0px 0px 10px -3px rgba(0, 0, 0, 0.3);
   transition: 0.5s;
 }
 
@@ -600,7 +600,8 @@ ul {
   transform: translateY(-50%);
   border-radius: 50%;
   border: 0;
-  box-shadow: 0px 0px 30px -5px rgba(20, 0, 0, 0.3);
+  box-shadow: 0px 0px 30px -10px rgba(20, 0, 0, 0.3);
+  transition: 0.3s;
 }
 
 .testimonial.row button:hover {
@@ -719,7 +720,7 @@ ul {
   transform: translate(-50%);
   border-radius: 50%;
   border: 0;
-  box-shadow: 100px 0px 100px 10px rgba(20, 0, 0, 1);
+  box-shadow: 100px 0px 100px 10px rgba(0, 0, 0, 1);
   transition: 0.3s;
 }
 
@@ -742,7 +743,7 @@ ul {
   font-size: 20px;
   font-weight: 500;
   border-radius: 5px;
-  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0px 0px 10px -3px rgba(0, 0, 0, 0.3);
   transition: 0.5s;
 }
 
